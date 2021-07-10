@@ -107,7 +107,7 @@ Contact me at <a href="github.com/${data.github}">${data.yourName}</a>
   function init(){
     inquirer.prompt(questions).then((answers)=>{
       const md = generateMarkdown(answers);
-      writeToFile("README.md", md);
+      writeToFile("output/README.md", md);
     })
   }
   init();

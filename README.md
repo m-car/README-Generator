@@ -1,15 +1,21 @@
-# test
+# README Generator
+
 ## Description
-test descript
+This is a README generator that uses NPM, inquirer.js and javascript to prompt the user questions, and create a formatted README in the output folder
+## Usage
+1. Open the console and type "node index.js".
+
+    <img src="images/Capture1.PNG">
+
+2. Follow the prompts on screen.
+
+    <img src="images/Capture2.PNG">
+
+3. A README is generated in the Output folder. 
+
+    <img src="images/Capture3.PNG">
+
 ## Installation
-install it
-## Usage 
-use it
-## Credits
-me 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-This project is licensed under the MIT license.
-## Questions
-Contact me at <a href="github.com/m-car">marko</a>
-    
+- NPM inquirer must be installed via your console. Type "npm i inquirer", as the node_modules is not included. 
+
+
